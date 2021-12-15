@@ -44,7 +44,7 @@
 |<img src="https://user-images.githubusercontent.com/94329521/146101036-34f9e75c-4c30-4756-932c-8971175818ae.mov" width= auto> | 
 
 <div align="center">
- scroll down 애니메이션 -> 스크롤 -> 사라짐 -> 맨위로 -> 다시 생김 || slider 기능 구현
+ scroll down 애니메이션 -> 스크롤 -> 사라짐 -> 맨위로 -> 다시 생김 || slider 기능 구현 || + opening ment 타이핑 효과 추가예정
 </div>
 
 
