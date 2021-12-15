@@ -36,14 +36,14 @@
 
  <h1 align="center"> 컴포넌트 소개 </h1>
  
-## 📱 제목입력
+## 📱 main
 
 <br>
 
 | 이미지 | |
 |:-----:|:----|
-|<img src="" width= 300> | <h2>소제목</h2> |
-|<img src="" width= 300> | <h2>소제목</h2> |
+|<img src="https://user-images.githubusercontent.com/94329521/146101036-34f9e75c-4c30-4756-932c-8971175818ae.mov
+" width= 300> | <h2>소제목</h2> |
 
 <div align="center">
 
