@@ -3,7 +3,7 @@
 
 <br>
 
- <h2 align="center">황도의 개인 포폴</h2>
+ <h2 align="center">ㅎㄷㅇ creator.</h2>
 
 <br>
 
@@ -11,7 +11,7 @@
 
 <div align="center">
 
-제 10대의 끝과 20대의 시작을 알리는 전시형 포트폴리오 입니다. 
+저를 소개하느 개이 포트폴리오 입니다.
 
 </div>
 
