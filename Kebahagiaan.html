@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebahagiaan</title>
+  <style>
+    @font-face {
+      font-family: 'S-CoreDream-3Light';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'S-CoreDream-5Medium';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    #main {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #poster {
+      width: 78vw;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .sub {
+      font-size: 30px;
+      font-family: 'S-CoreDream-5Medium';
+      padding-bottom: 10px;
+    }
+
+    .text {
+      font-size: 15px;
+      font-family: 'S-CoreDream-3Light';
+    }
+
+    #red_inner {
+      position: absolute;
+      top: 50%;
+      left: 3%;
+      transform: translate(0, -50%);
+      color: white;
+    }
+
+    #red {
+      position: relative;
+      width: 100vw;
+      height: 244px;
+      background-color: #E85E35;
+    }
+
+    #yellow {
+      position: relative;
+      width: 100vw;
+      height: 180px;
+      background-color: #FBE25A;
+    }
+
+    #yellow_inner {
+      position: absolute;
+      top: 50%;
+      left: 3%;
+      transform: translate(0, -50%);
+    }
+
+    #blue {
+      position: relative;
+      width: 100vw;
+      height: 142px;
+      background-color: #2358E2;
+    }
+
+    #blue div {
+      position: absolute;
+      top: 50%;
+      left: 3%;
+      transform: translate(0, -50%);
+      color: white;
+    }
+
+    #explain {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #piece {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+    }
+
+    #people {
+      position: absolute;
+      bottom: 20%;
+      left: 10%;
+    }
+
+    #box {
+      width: 800px;
+      height: 550px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 5%;
+      background-color: #F5F6F2;
+    }
+
+    #contain {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 730px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+    }
+
+    .frame {
+      width: 195px;
+      height: 140px;
+      background-color: white;
+      margin-right: 20px;
+      position: relative;
+    }
+
+    .text {
+      font-family: 'S-CoreDream-3Light';
+      font-size: 18px;
+    }
+
+    .text span {
+      font-family: 'S-CoreDream-5Medium';
+    }
+
+    #p {
+      box-sizing: border-box;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-bottom: calc(70px * 1.732) solid #E85E35;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #r {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 95px;
+      height: 95px;
+      background-color: rgba(251, 226, 90, 1);
+    }
+
+    #c {
+      width: 80px;
+      height: 110px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 4px solid #2358E2;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <img id="poster" src="./image/pasted-image.png">
+  </div>
+
+  <div id="red">
+    <div id="red_inner">
+      <div class="sub">행복이란 무엇인가?</div>
+      <div class="text">
+        행복은 아는 것이라고 생각합니다. 내게 있는 것들을 아는 것이라고 생각해요. 제게 있는 것들을 알고, 타인과 내가 다른 것을 알고, 이해하는 것입니다.<br />
+        기쁨을 기쁨이라하고 슬픔을 슬픔이라하고 화를 화라고 하는 것. 아침에 일어났을때 햇살, 산책할 수 있는 다리와 길거리, 웃고 떠들 수 있는 친구가 있다는걸 아는 것이라고
+        생각합니다.<br /><br />
+
+        이걸 깨닫고 저는 조금더 행복해진거 같습니다. 감사와 겸손이 단순히 덕목으로 우리가 갖춰야할게 아니라 우리가 행복하기 위해서 필요한 것이라는 것을 깨닫고 조금더 행복해진 것 같습니다.<br />
+        제가 살면서 고민해왔던 행복에대한 고민들, 생각들을 정리하고 싶고, 사람들과 공유하고 싶어서 아래의 개인전을 열게 되었습니다.
+      </div>
+    </div>
+  </div>
+
+  <div id="yellow">
+    <div id="yellow_inner">
+      <div class="sub">Kebahagiaan?</div>
+      <div class="text">바하기안은 말레이어로 행복이라는 의미인데요. 많은 사람들이 이말의 뜻을 모를 것같아 Kebahagiaan이란 제목으로 선정했습니다. <br />
+        제목의 의미를 알기위해선 검색을 해봐야하는 아주 약간의 수고가 필요합니다. <br />
+        이 아주 약간의 수고로 바하기안, 행복의 의미를 찾을 수 있다는 의미로 제목을 선정했습니다.</div>
+    </div>
+  </div>
+
+  <div id="blue">
+    <div class="sub">작품 설명</div>
+  </div>
+
+  <div id="explain">
+    <img id="piece" src="image/pasted-image.jpeg" width="216px">
+
+    <img id="people" src="./image/pasted-image-2.jpeg" width="306px">
+
+    <div id="box">
+      <div id="contain">
+        <div class="item">
+          <div class="frame">
+            <div id="p"></div>
+          </div>
+
+          <div class="text">
+            <span>행복</span><br />
+            삼각형은 가장단순한 도형입니다.<br />
+            이처럼 단순한 사실이 우리를 행복하게 한다는 의미를 담았습니다.<br />
+            행복은 우리에게 있는 것을 아는 것입니다.<br />
+            여러분에게는 무엇이 있나요.
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="frame">
+            <div id="r"></div>
+          </div>
+
+          <div class="text">
+            <span>불행</span><br />
+            행복 작품의 세가지 색상을 섞어서 만들었습니다.<br />
+            행복의 세가지 색이 섞인, 복잡하고 혼란스러운 상태를 나타냅니다.<br />
+            불행은 치우쳐 있고 무지한 상태입니다.<br />
+            무엇이 무엇인지 잘 알 수없는 상태라고 생각합니다.
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="frame">
+            <div id="c"></div>
+          </div>
+
+          <div class="text">
+            <span>시선</span><br />
+            타원은 여러분의 눈, 시선을 의미합니다.<br />
+            우리가 무엇을 바라보냐에 따라 행복할 수도 불행할 수도 있습니다.<br />
+            여러분은 어떤 것을 보고계신가요.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
