@@ -15,7 +15,7 @@
 
 | 이미지 | 
 |:-----:|
-|<img src="" width= auto> | 
+|<img width="1440" alt="스크린샷 2022-01-05 12 18 49" src="https://user-images.githubusercontent.com/94329521/148155475-23ddabee-383b-4b8e-8b95-a32109cdd8dc.png"> | 
 </div>
 
 
