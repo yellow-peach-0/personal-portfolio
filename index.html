@@ -243,13 +243,13 @@
       if (flag) {
         menuBtn.style.opacity = "0";
         xBtn.style.opacity = "1";
-        navBar.style.transform = "translate(0)"
-        console.log('hi')
+        navBar.style.transform = "translate(0)";
+        console.log('hi');
         flag = false;
       } else {
         xBtn.style.opacity = "0";
         menuBtn.style.opacity = "1";
-        navBar.style.transform = "translate(-100%)"
+        navBar.style.transform = "translate(-100%)";
         flag = true;
       }
     }
@@ -257,7 +257,7 @@
     const X = () => {
       xBtn.style.opacity = "0";
       menuBtn.style.opacity = "1";
-      navBar.style.transform = "translate(-100%)"
+      navBar.style.transform = "translate(-100%)";
     }
     menuBtn.addEventListener('click', clickBtn)
     document.addEventListener('scroll', X)
